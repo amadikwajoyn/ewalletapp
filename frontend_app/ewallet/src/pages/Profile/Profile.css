@@ -1,0 +1,9 @@
+.Profile{
+    flex: 4;
+}
+
+.homeProfile{
+    display: flex;
+    margin: 20px;
+}
+

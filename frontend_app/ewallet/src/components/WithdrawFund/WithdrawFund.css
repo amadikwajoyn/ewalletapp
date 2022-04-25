@@ -1,0 +1,70 @@
+.WithdrawFund {
+    flex: 2;
+    box-shadow: 0px 0px 15px -1-px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    padding: 20px;
+}
+
+.WithdrawFundTitle {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.WithdrawFundTable {
+    width: 100%;
+    border-spacing: 20px;
+}
+
+
+.WithdrawFundTh {
+    text-align: left;
+}
+
+.WithdrawFundType {
+    font-weight: 300;
+}
+
+.WithdrawFundTitle {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.WithdrawFund {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.WithdrawFunditem {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.WithdrawFunditem>label {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.WithdrawFundInput {
+    border: none;
+    width: 250px;
+    height: 30px;
+    border-bottom: 1px solid gray;
+}
+
+.WithdrawFundUplaod {
+    display: flex;
+    align-items: center;
+}
+
+
+.WithdrawFundButton {
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    background-color: darkblue;
+    color: white;
+    font-weight: 600;
+}

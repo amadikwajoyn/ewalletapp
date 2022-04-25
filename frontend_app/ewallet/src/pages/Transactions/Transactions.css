@@ -1,0 +1,8 @@
+.Transactions{
+    flex: 4;
+}
+
+.homeTransactions{
+    display: flex;
+    margin: 20px;
+}

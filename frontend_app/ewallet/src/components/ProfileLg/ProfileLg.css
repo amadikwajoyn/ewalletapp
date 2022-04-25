@@ -1,0 +1,85 @@
+.ProfileLg {
+    flex: 2;
+    box-shadow: 0px 0px 15px -1-px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    padding: 20px;
+}
+
+.ProfileLgTitle {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.ProfileLgTable {
+    width: 100%;
+    border-spacing: 20px;
+}
+
+
+.ProfileLgTh {
+    text-align: left;
+}
+
+.ProfileLgType {
+    font-weight: 300;
+}
+
+.ProfileLgTitle {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.userUpdate {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.userupdateitem {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.userupdateitem>label {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.userUpdateInput {
+    border: none;
+    width: 250px;
+    height: 30px;
+    border-bottom: 1px solid gray;
+}
+
+.userUpdateRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.userUpdateUplaod {
+    display: flex;
+    align-items: center;
+}
+
+.userUpdateImg {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.userUpdateIcon {
+    cursor: pointer;
+}
+
+.userUpdateButton {
+    border-radius: 5px;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    background-color: darkblue;
+    color: white;
+    font-weight: 600;
+}

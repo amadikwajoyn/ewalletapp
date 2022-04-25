@@ -1,0 +1,8 @@
+.CreateAddresses {
+    flex: 4;
+}
+
+.homeCreateAddresses{
+    display: flex;
+    margin: 20px;
+}

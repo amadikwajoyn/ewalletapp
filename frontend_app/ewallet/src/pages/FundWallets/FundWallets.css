@@ -1,0 +1,8 @@
+.FundWallets {
+    flex: 4;
+}
+
+.homeFundWallets{
+    display: flex;
+    margin: 20px;
+}

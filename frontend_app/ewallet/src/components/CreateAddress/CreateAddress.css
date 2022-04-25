@@ -1,0 +1,70 @@
+.ProfileLg {
+    flex: 2;
+    box-shadow: 0px 0px 15px -1-px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    padding: 20px;
+}
+
+.ProfileLgTitle {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.ProfileLgTable {
+    width: 100%;
+    border-spacing: 20px;
+}
+
+
+.ProfileLgTh {
+    text-align: left;
+}
+
+.ProfileLgType {
+    font-weight: 300;
+}
+
+.ProfileLgTitle {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.addressCreate {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.addressCreateitem {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.addressCreateitem>label {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.addressCreateInput {
+    border: none;
+    width: 250px;
+    height: 30px;
+    border-bottom: 1px solid gray;
+}
+
+.addressCreateUplaod {
+    display: flex;
+    align-items: center;
+}
+
+
+.addressCreateButton {
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    background-color: darkblue;
+    color: white;
+    font-weight: 600;
+}

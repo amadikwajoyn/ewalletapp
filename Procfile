@@ -1,0 +1,1 @@
+web: gunicorn --pythonpath api_endpoints config.wsgi
